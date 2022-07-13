@@ -4,7 +4,7 @@ class Conta:
         self._numero = numero
         self._titular = titular
 
-    @property
+    @property    # Não é padrão a utilização logo após um metodo.
     def saldo(self):
         return self._saldo
 

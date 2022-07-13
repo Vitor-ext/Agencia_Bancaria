@@ -1,7 +1,7 @@
 class Cliente:
-    def __init__(self, nome, fone):
+    def __init__(self, nome, telefone):
         self._nome = nome
-        self._telefone = fone
+        self._telefone = telefone
 
 # Metodo Get
     def get_nome(self):
