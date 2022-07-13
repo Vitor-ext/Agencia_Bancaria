@@ -6,6 +6,10 @@ class Main:
 
 client= Cliente("Joao", "1198989-8989")
 
-conta= Conta(client._nome, 5050, 102456)
+conta= Conta(client._nome, 5050, 1000)
 
-print("Titular: ",conta.titular(),"\nConta: ",conta.numero(), "\nSeu Saldo é: ", "R$",conta.saldo)
+conta.deposita(158)
+conta.saque(58)
+conta.extrato()
+
+#print("Titular: ",conta.titular(),"\nConta: ",conta.numero(), "\nSeu Saldo é: ", "R$",conta.saldo)
