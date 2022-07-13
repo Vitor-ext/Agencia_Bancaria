@@ -6,6 +6,6 @@ class Main:
 
 client= Cliente("Joao", "1198989-8989")
 
-conta= Conta(client.nome, 5050, 102456)
+conta= Conta(client.nome, 5050, 1024560)
 
 print("Titular: ",conta.titular,"\nConta: ",conta.numero, "\nSeu Saldo é: ", "R$",conta.saldo)
